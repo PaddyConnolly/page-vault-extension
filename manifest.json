@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Page Vault",
+  "version": "1.0",
+  "description": "Archive webpage HTML using a hotkey",
+  "permissions": ["activeTab", "tabs", "scripting"],
+  "host_permissions": ["http://127.0.0.1:8080/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "save-page": {
+      "suggested_key": {
+        "default": "Alt+S"
+      },
+      "description": "Capture and save current page"
+    }
+  }
+}

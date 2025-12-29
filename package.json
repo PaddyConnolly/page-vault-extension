@@ -1,0 +1,20 @@
+{
+  "name": "page-vault-extension",
+  "version": "1.0.0",
+  "description": "Firefox extension for capturing and archiving webpage HTML to a local server.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cp manifest.json dist/",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/webextension-polyfill": "^0.12.4",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.12.0"
+  }
+}
