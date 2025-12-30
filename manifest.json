@@ -15,5 +15,10 @@
       },
       "description": "Capture and save current page"
     }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "page-vault@paddy.dev"
+    }
   }
 }
