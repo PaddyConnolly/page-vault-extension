@@ -11,3 +11,4 @@ Press ```<Alt+S>``` to instantly save the current page.
 npm install
 npm run build
 ```
+You can change the keymap in the Firefox Add-ons Manager
